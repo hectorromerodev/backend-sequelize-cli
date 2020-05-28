@@ -1,0 +1,26 @@
+{
+  "name": "backend-tools-v2",
+  "version": "2.0.0",
+  "description": "An update of backend code of tools2 with sequelize-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorromerodev/backend-tools-v2.git"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "sequelize",
+    "exprees",
+    "sequelize-cli"
+  ],
+  "author": "Hector Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorromerodev/backend-tools-v2/issues"
+  },
+  "homepage": "https://github.com/hectorromerodev/backend-tools-v2#readme"
+}
