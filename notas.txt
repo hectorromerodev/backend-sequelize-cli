@@ -1,0 +1,18 @@
+Se plantea utilizar una base de datos relacional llamada MySQL, para ello se configura el nuevo servidor
+1. Iniciamos nuestro proyect en git y npm init
+2. Instalar dependencias de desarrollo 
+  cli de sequelize: npm i --save-dev sequelize-cli
+  nodemon autosave: npm i --save-dev nodemon
+  --> npm i --save-dev nodemon sequelize-cli
+3. Instalamos dependencias de produccion 
+  ORM y express: npm i sequelize express
+  Encriptar: npm i bcrypt
+  body-parser: npm i body-parser
+  cors para produccion online: npm i cors
+  variables de entorno: npm i dotenv
+  Json web token: npm i jsonwebtoken
+  MySQL: npm i mysql mysql2
+  --> npm i sequelize express bcrypt body-parser dotenv jsonwebtoken mysql mysql2
+4. Iniciamos nuestro proyecto sequelize
+  npx sequelize-cli init
+5. Agregamos environment.env en la carpeta raiz
