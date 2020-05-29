@@ -13,6 +13,21 @@ Se plantea utilizar una base de datos relacional llamada MySQL, para ello se con
   Json web token: npm i jsonwebtoken
   MySQL: npm i mysql mysql2
   --> npm i sequelize express bcrypt body-parser dotenv jsonwebtoken mysql mysql2
-4. Iniciamos nuestro proyecto sequelize
-  npx sequelize-cli init
-5. Agregamos environment.env en la carpeta raiz
+4. Iniciamos nuestro proyecto sequelize (https://sequelize.org/master/manual/migrations.html)
+  npx sequelize-cli init podemos cambiar (config.json a .js con opciones extras)
+5. Agregamos variables de entorno de nuestra app en la carpeta raiz
+  environment.env
+6. creamos nuestros modelos
+  npx sequelize model:generate --name ClientModel --attributes firstname:string, lastname:string, photo:string
+7. Migramos a nuestra db
+  npx sequelize db:migrate
+
+
+
+
+
+
+
+
+
+
